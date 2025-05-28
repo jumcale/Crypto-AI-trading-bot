@@ -8,8 +8,8 @@ from binance.client import Client
 from ta.momentum import RSIIndicator
 from ta.trend import MACD
 
-API_KEY = 'YOUR_TESTNET_API_KEY'
-API_SECRET = 'YOUR_TESTNET_SECRET_KEY'
+API_KEY = 'VC9Yi6ynO6aEtkoOZlyanraCk89Q1jq5yBm2JCF0zytZOfFIBTxRJJ9JscYdAYNJ'
+API_SECRET = 'WOSvETT2iuPQDjydDqPvV3rNANPd0Qgvd3vrTDUKNOMeXIyDcWG1ttcdYxyOtayX'
 client = Client(API_KEY, API_SECRET)
 client.API_URL = 'https://testnet.binance.vision/api'
 
